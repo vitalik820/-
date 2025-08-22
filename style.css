@@ -76,6 +76,22 @@ header a:hover{
     border-radius: 50%;
     box-shadow: 0px 0px 3px black;
 }
+.uu{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    transition: 0.3s;
+   color: #00fff7;
+}
+.oo{
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 18px;
+    box-shadow: 0px 0px 3px black;
+}
 
 
 
