@@ -4,68 +4,117 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>інтернет магазин</title>
-    <link rel="stylesheet" href=" style.css" />
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      .cart {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 30px 0;
+        padding: 15px;
+        border: 2px solid #ccc;
+        border-radius: 10px;
+      }
+      .cart:nth-child(even) {
+        flex-direction: row-reverse; /* парні блоки дзеркально */
+      }
+      .cart img {
+        width: 350px;
+        border-radius: 10px;
+      }
+      .cart p {
+        max-width: 400px;
+        font-size: 18px;
+        padding: 15px;
+      }
+    </style>
   </head>
   <body>
     <header>
-        <a href="index.html">
-         <img class="kk" src="https://t3.ftcdn.net/jpg/02/49/82/50/360_F_249825007_f5dzNTBuUZoV5nERUWTlPDoU3cvLIBzn.jpg"/>
-         </a>
+      <a href="index.html">
+        <img class="kk" src="https://t3.ftcdn.net/jpg/02/49/82/50/360_F_249825007_f5dzNTBuUZoV5nERUWTlPDoU3cvLIBzn.jpg"/>
+      </a>
       <form action="">
         <input class="oo" type="text" placeholder="Шукати ...">
         <button class="ee" type="submit">Шукати</button>
       </form>
       <a class="uu" href="index.html">ноутбуки</a>
-      <a class="uu"  href="comp.html">комп'тери</a>
-      <a class="uu"  href="TV.html">телевізори</a>
-        <a class="uu"  href="apple.html">apple</a>
+      <a class="uu" href="comp.html">комп'ютери</a>
+      <a class="uu" href="TV.html">телевізори</a>
+      <a class="uu" href="apple.html">apple</a>
     </header>
+
     <main>
       <div class="cart">
-        <p class="po">
-          Найкращі телевізори підходять для дітей та дорослих
-          з 13-20+ років
-        </p>
-        <img
-          class="gh"
-          src="https://images.samsung.com/is/image/samsung/p6pim/ua/ue98du9000uxua/gallery/ua-crystal-uhd-du9000-ue98du9000uxua-541616616?$684_547_PNG$"
-        />
+        <p>Найкращі телевізори підходять для дітей та дорослих з 13-20+ років</p>
+        <img src="https://images.samsung.com/is/image/samsung/p6pim/ua/ue98du9000uxua/gallery/ua-crystal-uhd-du9000-ue98du9000uxua-541616616?$684_547_PNG$"/>
       </div>
+
       <div class="cart">
-       
-        <img
-          class="gh"
-          src="https://foco.com.ua/content/images/4/1800x1112l80mc0/52531180004350.webp"
-        />
-        <p class="po">98 Inch Crystal UHD DU9000 4K Tizen OS Smart TV (2024)</p>
+        <p>98 Inch Crystal UHD DU9000 4K Tizen OS Smart TV (2024)</p>
+        <img src="https://foco.com.ua/content/images/4/1800x1112l80mc0/52531180004350.webp"/>
       </div>
-     
-      <p class="po">
-       
-      </p>
-      Телевизор TCL 115C7K
-      Телевизор TCL 115C7K TV Max 100 2025 100' QLED 4K 144Hz Google TV Dolby Vision Dolby Atmos HDMI 2.1 DVB-T2
-      <img
-        class="gh"
-        src="https://foroom.com.ua/media/cache/product_preview_webp/product/dir_315/dir_57050/1_png.webp"
-      />
-      <p class="po">
-      Телевізор Xiaomi TV Max 100 2025 100' QLED 4K 144Hz Google TV Dolby Vision Dolby Atmos HDMI 2.1 DVB-T2
-      </p>
-     
+
+      <div class="cart">
+        <p>Телевізор TCL 115C7K TV Max 100 2025 100' QLED 4K 144Hz Google TV Dolby Vision Dolby Atmos HDMI 2.1 DVB-T2</p>
+        <img src="https://foroom.com.ua/media/cache/product_preview_webp/product/dir_315/dir_57050/1_png.webp"/>
+      </div>
+
+      <div class="cart">
+        <p>Телевізор Xiaomi TV Max 100 2025 100' QLED 4K 144Hz Google TV Dolby Vision Dolby Atmos HDMI 2.1 DVB-T2</p>
+        <img src="https://33-2.com.ua/content/images/7/605x390l80nn100/televizor-samsung-qe98qn90aauxua-40770874933216.webp"/>
+      </div>
+
+      <div class="cart">
+        <p>Телевізор Samsung QE98QN90AAUXUA</p>
+        <img src="https://content1.rozetka.com.ua/goods/images/big/557140940.jpg"/>
+      </div>
+
+      <div class="cart">
+        <p>Телевізор LG 65" 65UA75006LA</p>
+        <img src="https://cdn.27.ua/799/d6/a5/9492133_7.jpeg"/>
+      </div>
+
+      <div class="cart">
+        <p>Телевізор Samsung QE65QN950FUXUA</p>
+        <img src="https://content.rozetka.com.ua/goods/images/big/531721970.jpg"/>
+      </div>
+
+      <div class="cart">
+        <p>Телевізор Samsung 43" UE43DU8000UXUA</p>
+        <img src="https://content.rozetka.com.ua/goods/images/big/531723713.jpg"/>
+      </div>
+
+      <div class="cart">
+        <p>Телевізор Samsung MiniLED 75" QE75QN900DUXUA</p>
+        <img src="https://content2.rozetka.com.ua/goods/images/big/557257816.jpg"/>
+      </div>
+
+      <div class="cart">
+        <p>Телевізор Samsung 50" UE50U8000FUXUA</p>
+        <img src="https://content1.rozetka.com.ua/goods/images/big/496202384.jpg"/>
+      </div>
+
+      <div class="cart">
+        <p>Телевізор Hisense QLED 55" 55E7NQ</p>
+        <img src="https://content2.rozetka.com.ua/goods/images/big/496202397.jpg"/>
+      </div>
+
+      <div class="cart">
+        <p>Телевізор Hisense 65" 65A6N</p>
+        <img src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcRdBtX-Z8qHPDmfl2ZkuIhH4jnAvgdMJc2ccC2CWvm8Zwu0nqRrD6j2GLp5yMr-4P91dVfwKnAu8qrhYOvYGAxq6hqvd2EvCyxU8BfAFQzE7bYipj_LDTRNAw"/>
+      </div>
+
+      <div class="cart">
+        <p>Телевізор Xiaomi TV A 43 2025</p>
+        <img src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcRdBtX-Z8qHPDmfl2ZkuIhH4jnAvgdMJc2ccC2CWvm8Zwu0nqRrD6j2GLp5yMr-4P91dVfwKnAu8qrhYOvYGAxq6hqvd2EvCyxU8BfAFQzE7bYipj_LDTRNAw"/>
+      </div>
     </main>
+
     <footer>
-      <p class="po">ви можите зв’язатися з нами через</p>
-      \
-      <img
-        class="ff"
-        src="https://st3.depositphotos.com/1102480/12714/i/950/depositphotos_127149876-stock-illustration-new-instagram-icon-printed-on.jpg"
-      />
-      <img
-        class="ff"
-        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0XNDNnz7T-umhWwRXWZ-7GeJYdD68M_NvdA&s"
-      />
+      <p>ви можете зв’язатися з нами через</p>
+      <img class="ff" src="https://st3.depositphotos.com/1102480/12714/i/950/depositphotos_127149876-stock-illustration-new-instagram-icon-printed-on.jpg"/>
+      <img class="ff" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0XNDNnz7T-umhWwRXWZ-7GeJYdD68M_NvdA&s"/>
     </footer>
   </body>
-  <script src="game logic.js"></script>
 </html>

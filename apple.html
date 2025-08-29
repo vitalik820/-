@@ -4,67 +4,115 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>інтернет магазин</title>
-    <link rel="stylesheet" href=" style.css" />
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      .cart {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 30px 0;
+      }
+      .cart img {
+        width: 250px;
+        height: auto;
+        border-radius: 10px;
+      }
+      .cart p {
+        width: 50%;
+        font-size: 18px;
+      }
+      /* чергування */
+      .cart:nth-child(even) {
+        flex-direction: row-reverse;
+      }
+    </style>
   </head>
   <body>
     <header>
-       <a href="index.html">
-         <img class="kk" src="https://t3.ftcdn.net/jpg/02/49/82/50/360_F_249825007_f5dzNTBuUZoV5nERUWTlPDoU3cvLIBzn.jpg"/>
-         </a>
+      <a href="index.html">
+        <img class="kk" src="https://t3.ftcdn.net/jpg/02/49/82/50/360_F_249825007_f5dzNTBuUZoV5nERUWTlPDoU3cvLIBzn.jpg"/>
+      </a>
       <form action="">
         <input class="oo" type="text" placeholder="Шукати ...">
         <button class="ee" type="submit">Шукати</button>
       </form>
       <a class="uu" href="index.html">ноутбуки</a>
-      <a class="uu"  href="comp.html">комп'тери</a>
-      <a class="uu"  href="TV.html">телевізори</a>
-        <a class="uu"  href="apple.html">apple</a>
+      <a class="uu" href="comp.html">комп'тери</a>
+      <a class="uu" href="TV.html">телевізори</a>
+      <a class="uu" href="apple.html">apple</a>
     </header>
+
     <main>
       <div class="cart">
-        <p class="po">
-          хороші речі від apple підходять для дітей та дорослих
-          з 13-20+ років
-        </p>
-        <img
-          class="gh"
-          src="https://www.istore.ua/upload/iblock/8af/x8hdizppse700bm2cgn9fjvg8p3at6nl/mac_book_pro_16_space_black_6_is.png"
-        />
+        <p>Хороші речі від Apple підходять для дітей та дорослих з 13-20+ років</p>
+        <img src="https://www.istore.ua/upload/iblock/8af/x8hdizppse700bm2cgn9fjvg8p3at6nl/mac_book_pro_16_space_black_6_is.png"/>
       </div>
-      <div class="cart">
-       
-        <img
-          class="gh"
-          src="https://smartmag.biz.ua/storage/products/images/45400/690x690/2025-01-23_06-03-37_45400.webp"
-        />
-        <p class="po">MacBook Pro M4 </p>
-      </div>
-     
-      <p class="po">
-     Планшет Apple iPad Pro 13 2024 Wi-Fi + Cellular 1TB Space Black with Nano-texture Glass (MWRY3)
-      </p>
 
-      <img
-        class="gh"
-        src="https://platforma-ukraine.com.ua/image/cache/wp/gp/products/6d543b56-faba-47d3-820d-fd04ad9e67ce/apple_iphone_16_pro_max_black_titanium_11-620x715.webp"
-      />
-      <p class="po">
-Apple iPhone 16 Pro Max 1TB Black Titanium (MYX43)
-      </p>
-     
+      <div class="cart">
+        <p>MacBook Pro M4</p>
+        <img src="https://smartmag.biz.ua/storage/products/images/45400/690x690/2025-01-23_06-03-37_45400.webp"/>
+      </div>
+
+      <div class="cart">
+        <p>Планшет Apple iPad Pro 13 2024 Wi-Fi + Cellular 1TB Space Black with Nano-texture Glass (MWRY3)</p>
+        <img src="https://platforma-ukraine.com.ua/image/cache/wp/gp/products/6d543b56-faba-47d3-820d-fd04ad9e67ce/apple_iphone_16_pro_max_black_titanium_11-620x715.webp"/>
+      </div>
+
+      <div class="cart">
+        <p>Apple iPhone 16 Pro Max 1TB Black Titanium (MYX43)</p>
+        <img src="https://zoozlagoda.com.ua/image/cache/catalog/image/catalog/image/catalog/image/catalog/image/catalog/stor3463-3462-4961-b866-623034663863/79520003-700x700.png"/>
+      </div>
+
+      <div class="cart">
+        <p>Смарт-годинник Apple Watch Series 8 GPS 41mm Starlight Aluminum Case</p>
+        <img src="https://vartaplus.com.ua/wp-content/uploads/2025/04/mobilnyj-telefon-apple-iphone-16-pro-max-1tb-desert-titanium-myx63.jpg"/>
+      </div>
+
+      <div class="cart">
+        <p>Мобільний телефон Apple iPhone 16 Pro Max 1TB Desert Titanium (MYX63)</p>
+        <img src="https://luckylink.kiev.ua/image/cache/catalog/product/31/25/product_image_142725_440214-400x400.jpg"/>
+      </div>
+
+      <div class="cart">
+        <p>Смартфон Apple iPhone 16 256GB Pink (MYEG3)</p>
+        <img src="https://www.istore.ua/upload/iblock/064/9u2334k9z8i0pc7a8hspxqju8zph9g2m/9KhGEiPsQhBXrwk.jpg"/>
+      </div>
+
+      <div class="cart">
+        <p>Apple iMac M3 24" 4.5K 24GB 512GB 10GPU Orange</p>
+        <img src="https://gstore.ua/content/images/18/950x950l85ml0/apple-macbook-pro-16-m3-pro-12cpu18gpu18gb512gb-space-balck-mrw43-61639768819091.webp"/>
+      </div>
+
+      <div class="cart">
+        <p>Apple MacBook Pro 16" M3 Max 16CPU/40GPU/128GB/8TB Silver</p>
+        <img src="https://zoozlagoda.com.ua/image/cache/catalog/2-1732278338-700x700-1741252455-700x700.jpg"/>
+      </div>
+
+      <div class="cart">
+        <p>Навушники Apple AirPods 4 ANC</p>
+        <img src="https://autobis.com.ua/image/cache/catalog/image/catalog/image/catalog/image/catalog/stor3765-6265-4037-a336-396361633466/13084118-700x700.png"/>
+      </div>
+
+      <div class="cart">
+        <p>Смарт-годинник Apple Watch Series 9 GPS + Cellular 45mm Gold</p>
+        <img src="https://files.foxtrot.com.ua/PhotoNew/img_0_1332_3808_0_1_WUEkuu.webp"/>
+      </div>
+
+      <div class="cart">
+        <p>Моноблок APPLE 24" iMac Retina 4.5K M4 256GB Blue</p>
+        <img src="https://images.prom.ua/2734449019_stilus-pencil-dlya.jpg"/>
+      </div>
+
+      <div class="cart">
+        <p>Стилус Pencil для Apple iPad Mini 2</p>
+        <img src="https://images.prom.ua/2734449019_stilus-pencil-dlya.jpg"/>
+      </div>
     </main>
+
     <footer>
-      <p class="po">ви можите зв’язатися з нами через</p>
-      \
-      <img
-        class="ff"
-        src="https://st3.depositphotos.com/1102480/12714/i/950/depositphotos_127149876-stock-illustration-new-instagram-icon-printed-on.jpg"
-      />
-      <img
-        class="ff"
-        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0XNDNnz7T-umhWwRXWZ-7GeJYdD68M_NvdA&s"
-      />
+      <p>ви можите зв’язатися з нами через</p>
+      <img class="ff" src="https://st3.depositphotos.com/1102480/12714/i/950/depositphotos_127149876-stock-illustration-new-instagram-icon-printed-on.jpg"/>
+      <img class="ff" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0XNDNnz7T-umhWwRXWZ-7GeJYdD68M_NvdA&s"/>
     </footer>
   </body>
-  <script src="game logic.js"></script>
 </html>
